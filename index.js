@@ -28,7 +28,10 @@ app.get(BASE_API_PATH + "/contacts", (req,res) =>{
         console.log(Date() + " - " + err);
       }
       else{
-        res.send(contacts);
+        res.send(contacts.map((contact) => {
+          delete contact._id;
+          return contact;
+        }));
       }
     });
 });
