@@ -1,21 +1,23 @@
 {
-  "name": "hello",
+  "name": "contacts",
   "version": "1.0.0",
-  "description": "oli",
+  "description": "API Contacts",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/LuisG0/contacts-fis2021.git"
-  },
-  "homepage": "https://github.com/LuisG0/contacts-fis2021",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/resinas/fis-contacts-backend.git"
+  },
+  "author": "Manuel Resinas",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/resinas/fis-contacts-backend/issues"
+  },
+  "homepage": "https://github.com/resinas/fis-contacts-backend#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "nedb": "^1.8.0"
   }
