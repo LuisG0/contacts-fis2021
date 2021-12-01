@@ -18,7 +18,11 @@ var db = new DataStore({
 
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('My server')
+});
+
+app.get(BASE_API_PATH + '/healtz', (req, res) => {
+  res.sendStatus(200);
 });
 
 app.get(BASE_API_PATH + "/contacts", (req,res) =>{
