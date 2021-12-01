@@ -25,7 +25,7 @@ jobs:
           # The name of the pipeline
           name: contacts-fis2021
           # If present, the namespace scope for this action. If not specified, it will use the current context
-          namespace: fis
+          namespace: fis-luisg0
 
 
 
